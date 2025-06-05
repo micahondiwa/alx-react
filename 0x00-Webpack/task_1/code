@@ -1,0 +1,19 @@
+import $ from 'jquery';
+
+// Add elements to the body in order
+$(document).ready(function() {
+  // First paragraph
+  $('body').append('<p>ALX Dashboard</p>');
+  
+  // Second paragraph
+  $('body').append('<p>Dashboard data for the students</p>');
+  
+  // Button element
+  $('body').append('<button>Click here to get started</button>');
+  
+  // Paragraph with count ID
+  $('body').append('<p id="count"></p>');
+  
+  // Copyright paragraph
+  $('body').append('<p>Copyright - ALX</p>');
+});
