@@ -1,2 +1,3 @@
 # alx-react
-- Webpack and react
+Webpack and react
+- React prop
