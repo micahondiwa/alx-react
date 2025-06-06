@@ -5,3 +5,4 @@ Webpack and react
 - Inline styling.
 - State
 - Immutable
+- Redux action creater + nomalizer.
