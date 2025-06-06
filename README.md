@@ -2,3 +2,4 @@
 Webpack and react
 - React props.
 - React component.
+- Inline styling.
