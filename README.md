@@ -6,3 +6,5 @@ Webpack and react
 - State
 - Immutable
 - Redux action creater + nomalizer.
+- Redux reducer + selector.
+- Redux connectors and providers.
