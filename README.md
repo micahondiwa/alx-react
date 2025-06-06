@@ -4,3 +4,4 @@ Webpack and react
 - React component.
 - Inline styling.
 - State
+- Immutable
