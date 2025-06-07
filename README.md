@@ -1,5 +1,5 @@
 # alx-react
-Webpack and react
+Webpack and react content:
 - React props.
 - React component.
 - Inline styling.
