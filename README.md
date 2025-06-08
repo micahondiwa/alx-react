@@ -4,7 +4,7 @@ Webpack and react content:
 - React component.
 - Inline styling.
 - State.
-- Immutable
+- Immutable.
 - Redux action creater + nomalizer.
 - Redux reducer + selector.
 - Redux connectors and providers.
