@@ -3,7 +3,7 @@ Webpack and react content:
 - React props.
 - React component.
 - Inline styling.
-- State
+- State.
 - Immutable
 - Redux action creater + nomalizer.
 - Redux reducer + selector.
