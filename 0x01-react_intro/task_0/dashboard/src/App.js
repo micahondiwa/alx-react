@@ -10,7 +10,7 @@ function App() {
     </div>
     </section>
 
-    <hr></hr>
+    <hr className='Horizontal-rule'></hr>
 
     <section>
     <div className="App-body">
@@ -18,7 +18,7 @@ function App() {
      </div>
      </section>
 
-     <hr></hr>
+     <hr className='Horizontal-rule'></hr>
 
     <section>  
     <div className="App-footer">
