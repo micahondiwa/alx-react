@@ -1,12 +1,10 @@
 import './App.css';
 
-function getFullYear() {
-    return Date().getFullYear();
+export function getFullYear() {
+    return new Date().getFullYear();
 }
 
-function getFooterCopy(isIndex) {
+export function getFooterCopy(isIndex) {
     return isIndex ? "ALX" : "ALX main dashboard";
 
 }
-
-export default utils;
