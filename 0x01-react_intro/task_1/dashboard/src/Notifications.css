@@ -3,3 +3,8 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+.Notifications {
+    padding: 16px;
+    border-radius: 6px;
+}
