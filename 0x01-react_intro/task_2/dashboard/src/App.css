@@ -35,7 +35,7 @@
 
 .App-body{
   padding-top: 3rem;
-  padding-bottom: 20rem;
+  padding-bottom: 1rem;
   padding-left: 2rem;
 }
 
@@ -46,3 +46,6 @@
 
 }
 
+.Login-form {
+  padding-bottom: 12rem;
+}

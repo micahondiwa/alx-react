@@ -20,6 +20,15 @@ function App(isIndex) {
     <div className="App-body">
       <p>Login to access the full dashboard</p>
      </div>
+
+     <div className='Login-form'>
+      <p>Email: </p>
+      <form className='form'>email@example.com</form>
+      <p>Password: </p>
+      <form className='form'>*****</form>
+      <button>OK</button>
+     </div>
+
      </section>
 
      <hr className='Horizontal-rule'></hr>
