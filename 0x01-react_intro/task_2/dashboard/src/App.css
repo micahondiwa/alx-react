@@ -48,4 +48,5 @@
 
 .Login-form {
   padding-bottom: 12rem;
+  display: flex;
 }
