@@ -30,6 +30,7 @@
 }
 
 .Horizontal-rule {
-  color: var(--primary-color);
+  background-color:  var(--primary-color);
+  height: 4px;
 }
 
