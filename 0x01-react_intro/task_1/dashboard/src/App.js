@@ -2,7 +2,7 @@ import './App.css';
 import logo from './logo.jpg';
 import {getFullYear, getFooterCopy} from './utils.js'
 
-function App() {
+function App(isIndex) {
   return (
     <>
     <section>
@@ -24,7 +24,7 @@ function App() {
 
     <section>  
     <div className="App-footer">
-        <p>Copyright 2020 - ALX</p>
+        <p>Copyright {getFullYear} - ALX</p>
       </div> 
     </section>
     </>
