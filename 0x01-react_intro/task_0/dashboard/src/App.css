@@ -5,12 +5,16 @@
 }
 
 :root{
-  --primary-color: red;
+  --primary-color: rgb(201, 70, 70);
 }
 
 .App-header{
   display:flex;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+
+.App-header h1{
+  color: var(--primary-color);
 }
 
