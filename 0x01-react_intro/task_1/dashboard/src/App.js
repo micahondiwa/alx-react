@@ -24,7 +24,7 @@ function App(isIndex) {
 
     <section>  
     <div className="App-footer">
-        <p>Copyright {getFullYear} - ALX</p>
+        <p>Copyright {getFullYear} - {getFooterCopy}</p>
       </div> 
     </section>
     </>
