@@ -4,5 +4,6 @@
 
 .App-header{
   display:flex;
+  grid-template-columns: repeat(2, 1fr);
 }
 
