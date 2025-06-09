@@ -1,0 +1,48 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root{
+  --font-family-base: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;;
+  --primary-color: #c1384c;
+  -font-size-small: 1.2rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2.5rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 3.4rem;
+  
+}
+
+.App-header{
+  display:flex;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.App-header h1{
+  color: var(--primary-color);
+  font-size: var(--font-size-xx-large);
+  padding-top: 8rem;
+  font-family: var(--font-family-base);
+}
+
+.Horizontal-rule {
+  background-color:  var(--primary-color);
+  height: 4px;
+}
+
+.App-body{
+  padding-top: 3rem;
+  padding-bottom: 20rem;
+  padding-left: 2rem;
+}
+
+.App-footer {
+  text-align: center;
+  font-style: italic;
+  font-size: var(--font-size-medium);
+
+}
+
