@@ -9,4 +9,4 @@ export function notifications() {
     )
 }
 
-export default App;
+export default Notifications;
