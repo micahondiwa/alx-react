@@ -3,6 +3,7 @@ import logo from './logo.jpg';
 import {getFullYear, getFooterCopy} from './utils.js'
 
 function App(isIndex) {
+  const year = getFullYear();
   return (
     <>
     <section>
@@ -24,7 +25,7 @@ function App(isIndex) {
 
     <section>  
     <div className="App-footer">
-        <p>Copyright {getFullYear} - {getFooterCopy}</p>
+        <p>Copyright {year} - {getFooterCopy}</p>
       </div> 
     </section>
     </>
