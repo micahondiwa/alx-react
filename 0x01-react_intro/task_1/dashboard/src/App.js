@@ -4,6 +4,7 @@ import {getFullYear, getFooterCopy} from './utils.js'
 
 function App(isIndex) {
   const year = getFullYear();
+  const alx = getFooterCopy(isIndex)
   return (
     <>
     <section>
@@ -25,7 +26,7 @@ function App(isIndex) {
 
     <section>  
     <div className="App-footer">
-        <p>Copyright {year} - {getFooterCopy}</p>
+        <p>Copyright {year} - {alx}</p>
       </div> 
     </section>
     </>
