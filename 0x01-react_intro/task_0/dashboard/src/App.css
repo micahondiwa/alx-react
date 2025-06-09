@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+  --primary-color: red;
+}
+
 .App-header{
   display:flex;
   grid-template-columns: repeat(2, 1fr);
