@@ -29,3 +29,7 @@
   font-family: var(--font-family-base);
 }
 
+.Horizontal-rule {
+  color: var(--primary-color);
+}
+
