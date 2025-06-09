@@ -8,3 +8,5 @@ export function notifications() {
         </div>
     )
 }
+
+export default App;
