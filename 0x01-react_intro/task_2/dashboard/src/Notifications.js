@@ -3,9 +3,11 @@ import './Notifications.css';
 
 export function Notifications() {
     return (
-        <div className='Notifications'>
+        <div className='Notifications' style={{position:'relative', padding: '1rem'}}>
             <p>Here is the list of notifications</p>
-            <button>Close</button>
+            <button>
+                Close
+                </button>
         </div>
     )
 }
