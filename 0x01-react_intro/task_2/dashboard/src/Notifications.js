@@ -14,8 +14,8 @@ export function Notifications() {
             </button>
             <ul>
                 <li style={{color: 'blue'}} data-priority="default">New course available</li> 
-                <li data-priority="urgent">New resume available</li> 
-                <li dangerouslySetInnerHTML={{ __html: getLatestNotification() }}></li>
+                <li style={{color: 'red'}} data-priority="urgent">New resume available</li> 
+                <li style={{color: 'red'}} dangerouslySetInnerHTML={{ __html: getLatestNotification() }}></li>
             </ul>
         </div>
     )
