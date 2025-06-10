@@ -6,7 +6,10 @@ export function Notifications() {
         <div className='Notifications'>
             <p>Here is the list of notifications</p>
             <button 
-            style={{marginLeft:"5px"}}
+            style={{
+            marginLeft:"5px", 
+            position: 'absolute',
+            }}
             aria-label='Close' 
             onClick={console.log("Close button has been clicked")}>
                 <img src='./close-icon.png' alt=''/>
