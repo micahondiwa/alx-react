@@ -47,5 +47,9 @@
 
 .Login-form {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+}
+
+.Login-form password {
+  margin-left: 30px;
 }
