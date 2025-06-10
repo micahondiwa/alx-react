@@ -11,7 +11,11 @@ export function Notifications() {
             position: 'absolute',
             right: "8px",
             top: "8px",
-            
+            border: "none",
+            backdroung: 'transparent',
+            cursor: 'pointer',
+            fontSize: '16px'
+
             }}
             aria-label='Close' 
             onClick={console.log("Close button has been clicked")}>
