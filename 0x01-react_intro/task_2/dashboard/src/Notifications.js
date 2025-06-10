@@ -1,4 +1,3 @@
-import react from 'react';
 import './Notifications.css';
 
 export function Notifications() {
@@ -9,7 +8,7 @@ export function Notifications() {
             <button 
             aria-label='Close' 
             onClick={console.log("Close button has been clicked")}>
-                </button>
+            </button>
         </div>
     )
 }
