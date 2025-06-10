@@ -9,6 +9,9 @@ export function Notifications() {
             style={{
             marginLeft:"5px", 
             position: 'absolute',
+            right: "8px",
+            top: "8px",
+            
             }}
             aria-label='Close' 
             onClick={console.log("Close button has been clicked")}>
