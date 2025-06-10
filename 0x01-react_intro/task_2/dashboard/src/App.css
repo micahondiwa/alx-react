@@ -48,6 +48,6 @@
 .Login-form {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
   padding-left: 3rem;
 }
