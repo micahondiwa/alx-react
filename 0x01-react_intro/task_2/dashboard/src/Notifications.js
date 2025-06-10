@@ -5,7 +5,7 @@ export function Notifications() {
     return (
         <div className='Notifications'>
             <p>Here is the list of notifications</p>
-            <button>Notifications</button>
+            <button>Close</button>
         </div>
     )
 }
