@@ -36,7 +36,7 @@
 .App-body{
   padding-top: 3rem;
   padding-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
 }
 
 .App-footer {
@@ -48,4 +48,6 @@
 .Login-form {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10rem;
+  padding-left: 3rem;
 }
