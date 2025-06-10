@@ -20,18 +20,21 @@ function App(isIndex) {
     <div className="App-body">
       <p>Login to access the full dashboard</p>
      </div>
+     <div className='Login-form'>
+        <form id="signup-form">
 
-   <form className="form">
-    <label htmlFor="email">Email:</label>
-    <input id="email" type="email" name="email" placeholder="email@example.com" />
-    </form>
+        <label htmlFor="email">Email: </label>
+        <input name="email" id="email" placeholder="email@example.com" />
 
-  <form>
-    <label htmlFor="password">Password:</label>
-    <input id="password" type="password" name="password" placeholder="*****" />
-    </form>
 
-    <button type="submit">OK</button>
+        <label htmlFor="password">Password: </label>
+        <input name="password" id="password" placeholder="*******" />
+
+
+        <button>OK</button>
+      </form>
+
+     </div>
 
      </section>
 
