@@ -15,4 +15,10 @@ describe('utils.js tests', () => {
     test('getFooterCopy returns "ALX main dashboard" when isIndex is false', () => {
         expect(getFooterCopy(false).toBe("ALX main dashboard"));
     });
-})
+
+    test('getLatestNotification returns correct HTML string', () => {
+        expect(getLatestNotification()).toBe(
+            "<strong>Urgent requirement</strong> - complete by EOD"
+        );
+    });
+});
