@@ -27,7 +27,9 @@ function App(isIndex) {
         <input name="email" id="email" placeholder="email@example.com" />
 
 
-        <label htmlFor="password">Password: </label>
+        <label htmlFor="password"
+        style={{marginLeft:"20px"}}
+        >Password: </label>
         <input name="password" id="password" placeholder="*******" />
 
 
