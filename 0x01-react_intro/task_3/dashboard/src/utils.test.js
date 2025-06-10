@@ -12,5 +12,7 @@ describe('utils.js tests', () => {
         expect(getFooterCopy(true).toBe("ALX"));
     });
 
-    test
+    test('getFooterCopy returns "ALX main dashboard" when isIndex is false'), () => {
+
+    }
 })
