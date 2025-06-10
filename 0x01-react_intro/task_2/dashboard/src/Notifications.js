@@ -13,7 +13,7 @@ export function Notifications() {
                 X
             </button>
             <ul>
-                <li data-priority="default">New course available</li> 
+                <li style={{color: 'blue'}} data-priority="default">New course available</li> 
                 <li data-priority="urgent">New resume available</li> 
                 <li dangerouslySetInnerHTML={{ __html: getLatestNotification() }}></li>
             </ul>
