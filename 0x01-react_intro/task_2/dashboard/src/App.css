@@ -44,3 +44,8 @@
   font-style: italic;
   font-size: var(--font-size-medium);
 }
+
+.Login-form {
+  display: flex;
+  justify-content: space-between
+}
