@@ -1,9 +1,9 @@
 /**Footerjs */
 import './App.css';
-import logo from './logo.jpg';
-import {getFullYear, getFooterCopy} from './utils.js'
+import logo from './src/logo.jpg';
+import {getFullYear, getFooterCopy} from './src/utils.js'
 
-function App(isIndex) {
+function Footer(isIndex) {
   const year = getFullYear();
   const alx = getFooterCopy(isIndex)
   return (
@@ -18,4 +18,4 @@ function App(isIndex) {
       );
 }
 
-export default App;
+export default Footer;
