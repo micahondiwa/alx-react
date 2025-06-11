@@ -28,7 +28,3 @@
   font-family: var(--font-family-base);
 }
 
-.Horizontal-rule {
-  background-color:  var(--primary-color);
-  height: 4px;
-}
