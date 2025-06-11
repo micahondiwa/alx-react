@@ -3,3 +3,22 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+:root{
+  --font-family-base: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;;
+  --primary-color: #c1384c;
+  -font-size-small: 1.2rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2.5rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 3.4rem;
+  
+}
+
+.App-footer {
+  text-align: center;
+  font-style: italic;
+  font-size: var(--font-size-medium);
+}
+
+
