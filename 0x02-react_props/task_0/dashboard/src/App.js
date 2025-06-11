@@ -11,8 +11,6 @@ function App(isIndex) {
       <Header/>
     </section>
 
-    <hr className='Horizontal-rule'></hr>
-
     <section>
     <div className="App-body">
       <p>Login to access the full dashboard</p>
