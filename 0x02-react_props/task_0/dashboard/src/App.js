@@ -1,7 +1,7 @@
 import './App.css';
-import {getFullYear, getFooterCopy} from './utils.js'
 import Header from './Header/Header.js'
 import Login from './Login/Login.js'
+import Footer from './Footer/Footer.js'
 
 function App(isIndex) {
   const year = getFullYear();
@@ -19,9 +19,8 @@ function App(isIndex) {
      <hr className='Horizontal-rule'></hr>
 
     <section>  
-    <div className="App-footer">
-        <p>Copyright {year} - {alx}</p>
-      </div> 
+      <Footer/>
+
     </section>
     </>
 
