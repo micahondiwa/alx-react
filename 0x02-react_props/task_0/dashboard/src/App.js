@@ -7,13 +7,20 @@ import Header from './Header/Header.js';
 function App() {
   return (
     <>
-    <Notifications/>
-    <Header/>
-    <hr className='Horizontal-rule'></hr>
-    <Login/>
-    <hr className='Horizontal-rule'></hr>
-    <Footer/>
+      <Notifications />
+      <header>
+        <Header />
+      </header>
+      <hr className="Horizontal-rule" />
+      <main>
+        <Login />
+      </main>
+      <hr className="Horizontal-rule" />
+      <footer>
+        <Footer />
+      </footer>
     </>
-      );
+  );
 }
+
 export default App;
