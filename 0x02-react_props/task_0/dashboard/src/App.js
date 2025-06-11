@@ -9,6 +9,7 @@ function App() {
     <section> <Header/></section>
     <hr className='Horizontal-rule'></hr>
     <section><Login/> </section>
+    <hr className='Horizontal-rule'></hr>
     <section> <Footer/> </section>
     </>
       );
