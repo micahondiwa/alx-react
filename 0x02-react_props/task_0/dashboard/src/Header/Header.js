@@ -1,8 +1,8 @@
 /**Header js */
-import './App.css';
+import './Header.css';
 import logo from './src/logo.jpg';
 
-function Header() {
+export function Header() {
   return (
     <>
     <section>
