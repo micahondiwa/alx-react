@@ -8,11 +8,11 @@ function App() {
   return (
     <>
     <Notifications/>
-    <section> <Header/></section>
+    <Header/>
     <hr className='Horizontal-rule'></hr>
-    <section><Login/> </section>
+    <Login/>
     <hr className='Horizontal-rule'></hr>
-    <section> <Footer/> </section>
+    <Footer/>
     </>
       );
 }
