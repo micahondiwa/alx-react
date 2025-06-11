@@ -12,9 +12,9 @@ function App() {
         <Header />
       </header>
       <hr className="Horizontal-rule" />
-      <main>
+      <body>
         <Login />
-      </main>
+      </body>
       <hr className="Horizontal-rule" />
       <footer>
         <Footer />
