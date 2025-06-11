@@ -2,7 +2,7 @@
 import './Header.css';
 import logo from './src/logo.jpg';
 
-export function Header() {
+export default function Header() {
   return (
     <>
     <section>

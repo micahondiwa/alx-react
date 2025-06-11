@@ -1,6 +1,7 @@
 import './App.css';
 import logo from './logo.jpg';
 import {getFullYear, getFooterCopy} from './utils.js'
+import Header from './Header/Header.js'
 
 function App(isIndex) {
   const year = getFullYear();
@@ -8,10 +9,7 @@ function App(isIndex) {
   return (
     <>
     <section>
-      <div className="App-header">
-      <img src={logo} alt="ALX Logo"/>
-      <h1>School dashboard</h1>
-    </div>
+      <Header/>
     </section>
 
     <hr className='Horizontal-rule'></hr>
