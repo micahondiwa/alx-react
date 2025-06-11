@@ -15,18 +15,11 @@
   
 }
 
-
-.Horizontal-rule {
-  background-color:  var(--primary-color);
-  height: 4px;
-}
-
 .App-body{
   padding-top: 3rem;
   padding-bottom: 1rem;
   padding-left: 3rem;
 }
-
 
 .Login-form {
   display: flex;
