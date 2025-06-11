@@ -3,7 +3,7 @@ import Header from './Header/Header.js'
 import Login from './Login/Login.js'
 import Footer from './Footer/Footer.js'
 
-function App(isIndex) {
+function App() {
   return (
     <>
     <section> <Header/></section>
