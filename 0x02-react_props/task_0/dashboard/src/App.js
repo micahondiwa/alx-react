@@ -4,8 +4,6 @@ import Login from './Login/Login.js'
 import Footer from './Footer/Footer.js'
 
 function App(isIndex) {
-  const year = getFullYear();
-  const alx = getFooterCopy(isIndex)
   return (
     <>
     <section>
