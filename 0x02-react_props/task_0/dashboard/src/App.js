@@ -7,6 +7,7 @@ import Header from './Header/Header.js';
 function App() {
   return (
     <>
+    <Notifications/>
     <section> <Header/></section>
     <hr className='Horizontal-rule'></hr>
     <section><Login/> </section>
