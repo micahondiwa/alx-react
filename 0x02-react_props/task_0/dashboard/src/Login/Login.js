@@ -1,7 +1,7 @@
 /**Loginjs */
 import './Login.css';
 
-function Login(isIndex) {
+function Login() {
   return (
     <>
     <div className="App-body">
