@@ -15,39 +15,7 @@
   
 }
 
-.App-header{
-  display:flex;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-.App-header h1{
-  color: var(--primary-color);
-  font-size: var(--font-size-xx-large);
-  padding-top: 8rem;
-  font-family: var(--font-family-base);
-}
-
 .Horizontal-rule {
   background-color:  var(--primary-color);
   height: 4px;
-}
-
-.App-body{
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-  padding-left: 3rem;
-}
-
-.App-footer {
-  text-align: center;
-  font-style: italic;
-  font-size: var(--font-size-medium);
-}
-
-.Login-form {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20rem;
-  padding-left: 3rem;
 }
