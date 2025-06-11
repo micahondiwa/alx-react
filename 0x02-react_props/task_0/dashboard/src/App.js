@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './logo.jpg';
 import {getFullYear, getFooterCopy} from './utils.js'
 import Header from './Header/Header.js'
 
