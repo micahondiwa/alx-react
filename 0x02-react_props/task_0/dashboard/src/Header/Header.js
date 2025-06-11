@@ -1,6 +1,6 @@
 /**Header js */
 import './Header.css';
-import logo from './src/logo.jpg';
+import logo from './logo.jpg';
 
 export default function Header() {
   return (
