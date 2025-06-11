@@ -1,12 +1,13 @@
 /**Notificationitem */
 import React from "react";
+import PropTypes from prop-PropTypes;
 
-export default function Notificationitem() {
+export default function Notificationitem({type, html, value}) {
     return(
         <>
         <li>
-        type=<data-notification-type/> value <li/>  html=<dangerouslySetInnerHTML/>
-        <li style={{color: 'blue'}} data-priority="default">New course available</li> 
+        ata-notification-type={type} value 
+
         </li>
         </>
     )};
