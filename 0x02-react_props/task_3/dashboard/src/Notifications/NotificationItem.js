@@ -5,7 +5,7 @@ export default function Notificationitem({type, html, value}) {
     return(
         <>
         <li
-        ata-notification-type={type} {...Notificationitem(html ? {dangerouslySetInnerHTML: html}: {})}/> {!html && value}
+        data-notification-type={type} {...Notificationitem(html ? {dangerouslySetInnerHTML: html}: {})}/> {!html && value}
         </>
     )};
 
