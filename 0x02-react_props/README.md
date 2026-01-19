@@ -1,4 +1,5 @@
 # REACT PROPS
 
 - React components use props to communicate with each other.
-- very parent component can pass some information to its child components by giving them props. 
+- very parent component can pass some information to its child components by giving them props.
+- Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
